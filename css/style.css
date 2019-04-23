@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of meyer web css reset  */
+
+/*Flat UI colors */
+/*!*google fonts*!*/
+/*font-family: 'Dokdo', cursive;*/
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Crimson Text', serif;*/
+/*font-family: 'Libre Baskerville', serif;*/
+/*font-family: 'Bitter', serif;*/
+/*font-family: 'Lobster', cursive;*/
+/*!*google fonts*!*/
+
+.clay{
+  background-color: #22313f;
+}
+.redpink{
+  background-color: #f64747;
+}
+.teal{
+  background-color: #111;
+}
+.blue{
+  background-color: #00acc1;
+}
+.grey-dark{
+  background-color: #222;
+}
+
+.snap{
+  height:100vh;
+}
+
+.ourfa{
+	min-width:80px;
+	font-size:40px;
+	color:#f64747;
+}
+.home{
+	display:flex;
+}
+.menu{
+	background-color:rgba(0,0,0,0.3);
+	min-width:100px;
+	flex:1;
+	display:flex;
+	flex-direction: column;
+}
+.blocks{
+	margin:auto;
+}
+.home-content{
+	flex:14;
+	text-align:center;
+	margin:auto;
+}
+.title-home{
+	font-family: 'Anton', sans-serif;
+	font-size:30px;
+	color:#cfcfcf;
+}
+
+.content-home{
+	/*font-family: 'Dokdo', cursive;*/
+	/*font-family: 'Anton', sans-serif;*/
+	font-family: 'Crimson Text', serif;
+	/*font-family: 'Libre Baskerville', serif;*/
+	/*font-family: 'Bitter', serif;*/
+	/*font-family: 'Lobster', cursive;*/
+	font-size:20px;
+	color:#cfcfcf;
+}
+.txt{
+	font-family: "Adobe Caslon Pro Bold";
+	font-weight:200;
+	font-size:15px;
+	color:#f7f7f7;
+	line-height:24px;
+	text-transform:uppercase;
+	text-align:center;
+}
+#about{
+	display:none;
+}
+#team{
+	display:none;
+}
+#services{
+	display:none;
+}
+#contact{
+	display:none;
+}
+/*title-section*/
+.title-section{
+	/*font-family: 'Dokdo', cursive;*/
+	font-family: 'Anton', sans-serif;
+	/*font-family: 'Crimson Text', serif;*/
+	/*font-family: 'Libre Baskerville', serif;*/
+	/*font-family: 'Bitter', serif;*/
+	/*font-family: 'Lobster', cursive;*/
+	font-size:45px;
+	/*font-weight:300;*/
+	color:#cfcfcf;
+	padding:30px;
+	text-align:center;
+}
+.blue .title-section{
+	color:#222;
+}
+.about{
+	display:flex;
+	flex-wrap:wrap;
+}
+.about-content{
+	width:360px;
+	margin:auto;
+}
+.about-content p{
+	font-family:"Cooper Black";
+	font-weight:200;
+	font-size:17px;
+	color:#efefef;
+	padding:10px;
+	line-height:20px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.about-content li{
+	font-family:"Arial Narrow";
+	font-size:17px;
+	font-weight:100;
+	color:#efefef;
+	line-height:30px;
+	padding-left:30px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.about-content h4 {
+	font-family: 'Lobster', cursive;
+	font-size: 45px;
+	color: #efefef;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 40px;
+	padding-left: 50px;
+
+}
+/* circle progress */
+.circles {
+	margin-bottom: 100px;
+
+
+}
+
+.circle {
+	width: 100px;
+	margin: 6px 6px 20px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.circle canvas {
+	vertical-align: top;
+}
+
+.circle strong {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+}
+
+.circle strong i {
+	font-style: normal;
+	font-size: 0.6em;
+	font-weight: normal;
+}
+
+.circle span {
+	font-family:"Adobe Caslon Pro Bold";
+	font-size:15px;
+	display: block;
+	color: #efefef;
+	margin-top: 12px;
+}
+/*gallary*/
+.gallery{
+    width:80%;
+    margin: 0 auto;
+    /*display:flex;*/
+    /*felx-wrap:wrap;*/
+
+}
+figure{
+    width:320px;
+    margin-right:20px;
+    felx:auto;
+    border-style:solid;
+    border-color:#111;
+    border-width: 0px 10px;
+}
+figcaption h4{
+    font-family:"Adobe Garamond Pro Bold";
+    font-size:1.4em;
+    padding-bottom:10px;
+}
+figcaption p{
+    font-family:"Adobe Garamond Pro Bold";
+    font-size:1.2em;
+    line-height:1.5em;
+    padding-bottom:10px;
+}
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+    background-color: #efefef;
+    margin-bottom:20px;
+}
+[class^='imghvr-'] figcaption,
+[class*=' imghvr-'] figcaption{
+    background-color: rgba(255,0,70,0.9);
+}
+
+/*services*/
+.box-holder {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	max-width:1280px;
+	margin: 0 auto;
+}
+.boxes{
+	width:360px;
+	height:200px;
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom:30px;
+}
+.boxes p{
+	font-family:"Baskerville Old Face";
+	font-size: 18px;
+	color:#cfcfcf;
+	padding: 0 20px;
+}
+.boxes h4{
+	font-family:"Baskerville Old Face";
+	font-size: 24px;
+	color:#cfcfcf;
+	padding: 20px;
+}
+/*contact box*/
+/*.contact-box{*/
+	/*padding: 15px;*/
+	/*font-size: 150px;*/
+/*}*/
+
+.contact-me p{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	color:#2266a5;
+	padding:20px;
+}
+.email {
+	font-family: 'Libre Baskerville', serif;
+	font-size:20px;
+	font-weight: 100;
+	color:#cfcfcf;
+	padding:20px;
+}
+.mobile{
+	font-family: 'Libre Baskerville', serif;
+	font-size:20px;
+	color:#cfcfcf;
+	padding:20px;
+}
+#about{
+	font-family: 'Bitter', serif;
+
+}
+#mywork{
+	font-family: 'Bitter', serif;
+
+}
+#services{
+	font-family: 'Bitter', serif;
+
+}
+#contact{
+	font-family: 'Bitter', serif;
+
+}
+.homepic{
+	padding-left: 65px;
+}
+
+/*!*google fonts*!*/
+/*font-family: 'Dokdo', cursive;*/
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Crimson Text', serif;*/
+/*font-family: 'Libre Baskerville', serif;*/
+/*font-family: 'Bitter', serif;*/
+/*font-family: 'Lobster', cursive;*/
+/*!*google fonts*!*/
